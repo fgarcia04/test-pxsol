@@ -14,3 +14,7 @@ use Illuminate\Http\Request;
 */
 
 Route::post('/user/uploadfile', 'UserController@uploadFile');
+
+Route::get('/user/listfiles/{user_id}', 'UserController@listFiles');
+
+Route::get('/user/listusers', 'UserController@listUsers');
