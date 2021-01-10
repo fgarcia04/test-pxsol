@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "9b449fe1-9e22-4d82-a074-cf37c9949b2e",
+		"name": "Test PXSOL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Upload File",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file_name",
+							"type": "file",
+							"src": "/home/fgarcia/Imágenes/atenolol.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/api/user/uploadfile?user_id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"user",
+						"uploadfile"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1"
+						}
+					]
+				},
+				"description": "Upload file to server and save storage folder laravel."
+			},
+			"response": []
+		},
+		{
+			"name": "List file for user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/user/listfiles/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"user",
+						"listfiles",
+						"1"
+					]
+				},
+				"description": "List file uploader for user_id."
+			},
+			"response": []
+		},
+		{
+			"name": "LIst all files",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/user/listusers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"user",
+						"listusers"
+					]
+				},
+				"description": "List all file of users"
+			},
+			"response": []
+		}
+	]
+}
