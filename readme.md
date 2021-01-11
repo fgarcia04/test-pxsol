@@ -6,11 +6,11 @@
 ~~~
 
 ~~~
-Postman test Import file PXSOL.postman_collection.json.
+Postman test Import file: PXSOL.postman_collection.json.
 ~~~
 
 ~~~
-Setting virutal host:
+Apache Setting virutal host:
 
 <VirtualHost *:80>
     ServerName localhost
