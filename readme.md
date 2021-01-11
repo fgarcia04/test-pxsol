@@ -6,7 +6,7 @@
 ~~~
 
 ~~~
-Postman test import PXSOL.postman_collection.json.
+Postman test Import file PXSOL.postman_collection.json.
 ~~~
 
 ~~~
