@@ -3,10 +3,13 @@
 2 - Execute "composer install".
 3 - Generate tables with "php artisan migrate".
 4 - Generate data test into table "users" with "php artisan db:seed --class=UserSeeder".
+~~~
 
+~~~
+Postman test import PXSOL.postman_collection.json.
+~~~
 
-Add Test PXSOL.postman_collection.json import from Postman.
-
+~~~
 Setting virutal host:
 
 <VirtualHost *:80>
@@ -18,6 +21,4 @@ Setting virutal host:
     	Allow from All
     </Directory>
 </VirtualHost>
-
-
 ~~~
